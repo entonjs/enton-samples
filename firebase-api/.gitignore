@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+
+# Error file
+yarn-error.log
+
+# Private Info
+secure_info
