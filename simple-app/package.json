@@ -7,7 +7,7 @@
     "start": "enton index.js"
   },
   "dependencies": {
-    "enton": "^0.0.1-beta.5"
+    "enton": "^0.0.1-beta.7"
   },
   "devDependencies": {
     "eslint": "^5.14.0",
