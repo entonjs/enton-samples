@@ -6,13 +6,13 @@ const {
     secret,
     userName: userNameKey,
     password: passwordKey
-} = require('../../secure_info/credentials');
+} = require('../secure_info/credentials');
 
 @Controller('/api/authenticate')
 @Middleware(secure)
 class AuthController {
     @Get('/')
-    index() {
+    index(req, res) {
         const { userName, password } = req.body;
 
         if (userName === userNameKey && password === passwordKey) {
@@ -29,3 +29,5 @@ class AuthController {
         }
     }
 }
+
+export default AuthController;
