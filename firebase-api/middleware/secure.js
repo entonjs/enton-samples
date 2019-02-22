@@ -1,4 +1,3 @@
-const express = require('express');
 const jwt = require('jsonwebtoken');
 const { secret } = require('../secure_info/credentials');
 
