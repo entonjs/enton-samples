@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bodyParser": {
+      "enabled": true
+    },
+    "cookieParser": {
+      "enabled": true
+    }
+  }
+}
